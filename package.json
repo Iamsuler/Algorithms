@@ -1,0 +1,26 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "算法",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iamsuler/Algorithms.git"
+  },
+  "keywords": [
+    "算法"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Iamsuler/Algorithms/issues"
+  },
+  "homepage": "https://github.com/Iamsuler/Algorithms#readme",
+  "devDependencies": {
+    "ts-node": "^8.10.2",
+    "typescript": "^3.5.3"
+  }
+}
