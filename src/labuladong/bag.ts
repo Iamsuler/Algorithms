@@ -1,6 +1,11 @@
 // 可装载重量为w,n个物品，wt为物品重量，val为价值，最多能装的价值是多少
 // dp[i][w]定义对于前i个物品，当前背包容量为w，可以装下的最大价值
-function maxBag(w: number, n: number, wt: number[], val: number[]): number {
+export default function maxBag(
+  w: number,
+  n: number,
+  wt: number[],
+  val: number[]
+): number {
   let dp: number[][] = Array.from(new Array(n + 1), () =>
     new Array(w + 1).fill(0)
   );
@@ -21,5 +26,3 @@ function maxBag(w: number, n: number, wt: number[], val: number[]): number {
   }
   return dp[n][w];
 }
-
-console.log(maxBag(4, 3, [2, 1, 3], [4, 2, 3]));
